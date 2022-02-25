@@ -1,0 +1,46 @@
+.toastItem {
+  display: flex;
+  justify-content: space-between;
+  border: solid;
+  border-radius: 5px;
+  width: 400px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.toastInfo {
+  display: flex;
+}
+
+.toastDescription {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.toastIconContainer {
+  display: flex;
+  align-items: flex-start;
+  margin-right: 10px;
+}
+
+.toastIcon {
+  width: 24px;
+  height: 24px;
+}
+
+.toastTile {
+  text-transform: capitalize;
+  font-size: 20px;
+  text-align: left;
+}
+
+.toastMessage {
+  font-size: 15px;
+  text-align: left;
+}
+
+.toastCloseBtn {
+  cursor: pointer;
+  padding: 2px;
+}
